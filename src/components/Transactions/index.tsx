@@ -1,4 +1,4 @@
-import { useCallback } from "react"
+import { useCallback, useEffect } from "react"
 import { useCustomFetch } from "src/hooks/useCustomFetch"
 import { SetTransactionApprovalParams } from "src/utils/types"
 import { TransactionPane } from "./TransactionPane"
